@@ -1,0 +1,841 @@
+Found 100 images belonging to 3 classes.
+Model fit
+Epoch 1/15
+126s - loss: 1.0503 - categorical_accuracy: 0.4531 - val_loss: 1.2205 - val_categorical_accuracy: 0.3400
+Epoch 2/15
+121s - loss: 0.6731 - categorical_accuracy: 0.6812 - val_loss: 1.0741 - val_categorical_accuracy: 0.4500
+Epoch 3/15
+121s - loss: 0.3552 - categorical_accuracy: 0.8844 - val_loss: 0.9043 - val_categorical_accuracy: 0.5400
+Epoch 4/15
+121s - loss: 0.1750 - categorical_accuracy: 0.9562 - val_loss: 0.8696 - val_categorical_accuracy: 0.5800
+Epoch 5/15
+121s - loss: 0.1090 - categorical_accuracy: 0.9719 - val_loss: 0.8343 - val_categorical_accuracy: 0.6500
+Epoch 6/15
+121s - loss: 0.0802 - categorical_accuracy: 0.9906 - val_loss: 0.7243 - val_categorical_accuracy: 0.7100
+Epoch 7/15
+121s - loss: 0.0528 - categorical_accuracy: 0.9969 - val_loss: 0.7104 - val_categorical_accuracy: 0.7400
+Epoch 8/15
+121s - loss: 0.0364 - categorical_accuracy: 1.0000 - val_loss: 0.7166 - val_categorical_accuracy: 0.8000
+Epoch 9/15
+121s - loss: 0.0348 - categorical_accuracy: 0.9969 - val_loss: 0.6794 - val_categorical_accuracy: 0.8300
+Epoch 10/15
+121s - loss: 0.0278 - categorical_accuracy: 0.9969 - val_loss: 0.6444 - val_categorical_accuracy: 0.8300
+Epoch 11/15
+121s - loss: 0.0333 - categorical_accuracy: 0.9937 - val_loss: 0.3940 - val_categorical_accuracy: 0.8900
+Epoch 12/15
+121s - loss: 0.0199 - categorical_accuracy: 0.9969 - val_loss: 0.3026 - val_categorical_accuracy: 0.9000
+Epoch 13/15
+121s - loss: 0.0217 - categorical_accuracy: 0.9969 - val_loss: 0.2198 - val_categorical_accuracy: 0.9100
+Epoch 14/15
+121s - loss: 0.0293 - categorical_accuracy: 0.9969 - val_loss: 0.1363 - val_categorical_accuracy: 0.9400
+Epoch 15/15
+121s - loss: 0.0244 - categorical_accuracy: 0.9969 - val_loss: 0.1497 - val_categorical_accuracy: 0.9500
+Saving the weights
+Weights succesfuly saved!
+Directory: dataset/validation/neutral
+File: dataset/validation/neutral/244.jpg
+
+1/1 [==============================] - 2s
+('Predicted:', array([[ 0.47773769,  0.50525963,  0.01700272]], dtype=float32))
+Predictions: [[ 0.47773769  0.50525963  0.01700272]]
+
+Class: 1
+
+File: dataset/validation/neutral/WIN_20161121_13_04_02_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.32459652,  0.62530583,  0.05009759]], dtype=float32))
+Predictions: [[ 0.32459652  0.62530583  0.05009759]]
+
+Class: 1
+
+File: dataset/validation/neutral/214.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.24034575,  0.57754225,  0.18211201]], dtype=float32))
+Predictions: [[ 0.24034575  0.57754225  0.18211201]]
+
+Class: 1
+
+File: dataset/validation/neutral/WIN_20161120_04_40_13_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.19540712,  0.79347461,  0.01111824]], dtype=float32))
+Predictions: [[ 0.19540712  0.79347461  0.01111824]]
+
+Class: 1
+
+File: dataset/validation/neutral/WIN_20161119_18_29_36_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.05519519,  0.93672633,  0.00807847]], dtype=float32))
+Predictions: [[ 0.05519519  0.93672633  0.00807847]]
+
+Class: 1
+
+File: dataset/validation/neutral/WIN_20161119_12_39_55_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.12805589,  0.85800266,  0.01394148]], dtype=float32))
+Predictions: [[ 0.12805589  0.85800266  0.01394148]]
+
+Class: 1
+
+File: dataset/validation/neutral/208.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.36468577,  0.49426377,  0.14105043]], dtype=float32))
+Predictions: [[ 0.36468577  0.49426377  0.14105043]]
+
+Class: 1
+
+File: dataset/validation/neutral/226.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.11959729,  0.68275774,  0.19764492]], dtype=float32))
+Predictions: [[ 0.11959729  0.68275774  0.19764492]]
+
+Class: 1
+
+File: dataset/validation/neutral/179.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.13652642,  0.49377638,  0.36969712]], dtype=float32))
+Predictions: [[ 0.13652642  0.49377638  0.36969712]]
+
+Class: 1
+
+File: dataset/validation/neutral/252.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.21827973,  0.73558807,  0.04613217]], dtype=float32))
+Predictions: [[ 0.21827973  0.73558807  0.04613217]]
+
+Class: 1
+
+File: dataset/validation/neutral/205.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.62577111,  0.1601719 ,  0.21405695]], dtype=float32))
+Predictions: [[ 0.62577111  0.1601719   0.21405695]]
+
+Class: 0
+
+File: dataset/validation/neutral/WIN_20161119_12_40_16_Pro (2).jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.19296263,  0.76343578,  0.04360159]], dtype=float32))
+Predictions: [[ 0.19296263  0.76343578  0.04360159]]
+
+Class: 1
+
+File: dataset/validation/neutral/183.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.19403952,  0.4651534 ,  0.34080705]], dtype=float32))
+Predictions: [[ 0.19403952  0.4651534   0.34080705]]
+
+Class: 1
+
+File: dataset/validation/neutral/173.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.07369986,  0.83581293,  0.09048723]], dtype=float32))
+Predictions: [[ 0.07369986  0.83581293  0.09048723]]
+
+Class: 1
+
+File: dataset/validation/neutral/323.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.1698589 ,  0.7925337 ,  0.03760736]], dtype=float32))
+Predictions: [[ 0.1698589   0.7925337   0.03760736]]
+
+Class: 1
+
+File: dataset/validation/neutral/201.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.04861028,  0.9278121 ,  0.02357765]], dtype=float32))
+Predictions: [[ 0.04861028  0.9278121   0.02357765]]
+
+Class: 1
+
+File: dataset/validation/neutral/325.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.05487427,  0.84256786,  0.10255795]], dtype=float32))
+Predictions: [[ 0.05487427  0.84256786  0.10255795]]
+
+Class: 1
+
+File: dataset/validation/neutral/212.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.50763875,  0.34538919,  0.14697209]], dtype=float32))
+Predictions: [[ 0.50763875  0.34538919  0.14697209]]
+
+Class: 0
+
+File: dataset/validation/neutral/WIN_20161119_12_40_05_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.14135253,  0.8513357 ,  0.00731185]], dtype=float32))
+Predictions: [[ 0.14135253  0.8513357   0.00731185]]
+
+Class: 1
+
+File: dataset/validation/neutral/198.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.25803494,  0.57078832,  0.17117669]], dtype=float32))
+Predictions: [[ 0.25803494  0.57078832  0.17117669]]
+
+Class: 1
+
+File: dataset/validation/neutral/210.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.05798985,  0.92089993,  0.02111018]], dtype=float32))
+Predictions: [[ 0.05798985  0.92089993  0.02111018]]
+
+Class: 1
+
+File: dataset/validation/neutral/239.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.20486939,  0.39454472,  0.40058589]], dtype=float32))
+Predictions: [[ 0.20486939  0.39454472  0.40058589]]
+
+Class: 2
+
+File: dataset/validation/neutral/WIN_20161121_13_04_05_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.16098806,  0.80280173,  0.03621019]], dtype=float32))
+Predictions: [[ 0.16098806  0.80280173  0.03621019]]
+
+Class: 1
+
+File: dataset/validation/neutral/194.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.12719001,  0.83630478,  0.03650522]], dtype=float32))
+Predictions: [[ 0.12719001  0.83630478  0.03650522]]
+
+Class: 1
+
+File: dataset/validation/neutral/WIN_20161121_13_04_00_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[  5.34154754e-03,   9.94242489e-01,   4.15850984e-04]], dtype=float32))
+Predictions: [[  5.34154754e-03   9.94242489e-01   4.15850984e-04]]
+
+Class: 1
+
+File: dataset/validation/neutral/234.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.07629875,  0.74322975,  0.18047152]], dtype=float32))
+Predictions: [[ 0.07629875  0.74322975  0.18047152]]
+
+Class: 1
+
+File: dataset/validation/neutral/174.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.04219131,  0.91393471,  0.04387395]], dtype=float32))
+Predictions: [[ 0.04219131  0.91393471  0.04387395]]
+
+Class: 1
+
+File: dataset/validation/neutral/197.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.04436332,  0.12589306,  0.82974356]], dtype=float32))
+Predictions: [[ 0.04436332  0.12589306  0.82974356]]
+
+Class: 2
+
+File: dataset/validation/neutral/192.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.24807744,  0.45316285,  0.29875976]], dtype=float32))
+Predictions: [[ 0.24807744  0.45316285  0.29875976]]
+
+Class: 1
+
+File: dataset/validation/neutral/177.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.29546764,  0.56115383,  0.14337848]], dtype=float32))
+Predictions: [[ 0.29546764  0.56115383  0.14337848]]
+
+Class: 1
+
+File: dataset/validation/neutral/WIN_20161119_18_29_28_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.03408905,  0.95394999,  0.0119609 ]], dtype=float32))
+Predictions: [[ 0.03408905  0.95394999  0.0119609 ]]
+
+Class: 1
+
+File: dataset/validation/neutral/231.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.21044384,  0.34103543,  0.44852063]], dtype=float32))
+Predictions: [[ 0.21044384  0.34103543  0.44852063]]
+
+Class: 2
+
+File: dataset/validation/neutral/187.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.05205904,  0.88440293,  0.06353802]], dtype=float32))
+Predictions: [[ 0.05205904  0.88440293  0.06353802]]
+
+Class: 1
+
+File: dataset/validation/neutral/WIN_20161119_18_28_50_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.35538781,  0.61994714,  0.02466502]], dtype=float32))
+Predictions: [[ 0.35538781  0.61994714  0.02466502]]
+
+Class: 1
+
+Directory: dataset/validation/surprise
+File: dataset/validation/surprise/WIN_20161119_18_32_55_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.02020456,  0.97354251,  0.00625292]], dtype=float32))
+Predictions: [[ 0.02020456  0.97354251  0.00625292]]
+
+Class: 1
+
+File: dataset/validation/surprise/7.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.0024818 ,  0.00868286,  0.98883539]], dtype=float32))
+Predictions: [[ 0.0024818   0.00868286  0.98883539]]
+
+Class: 2
+
+File: dataset/validation/surprise/WIN_20161119_14_31_12_Pro (2).jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.26609635,  0.66122544,  0.0726782 ]], dtype=float32))
+Predictions: [[ 0.26609635  0.66122544  0.0726782 ]]
+
+Class: 1
+
+File: dataset/validation/surprise/75.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.04565125,  0.04921084,  0.9051379 ]], dtype=float32))
+Predictions: [[ 0.04565125  0.04921084  0.9051379 ]]
+
+Class: 2
+
+File: dataset/validation/surprise/WIN_20161119_14_31_05_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.11183371,  0.87305921,  0.01510708]], dtype=float32))
+Predictions: [[ 0.11183371  0.87305921  0.01510708]]
+
+Class: 1
+
+File: dataset/validation/surprise/WIN_20161119_18_32_50_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.1877729 ,  0.7948606 ,  0.01736653]], dtype=float32))
+Predictions: [[ 0.1877729   0.7948606   0.01736653]]
+
+Class: 1
+
+File: dataset/validation/surprise/73.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.30472296,  0.44033906,  0.25493795]], dtype=float32))
+Predictions: [[ 0.30472296  0.44033906  0.25493795]]
+
+Class: 1
+
+File: dataset/validation/surprise/WIN_20161121_13_05_48_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.07642503,  0.42179263,  0.5017823 ]], dtype=float32))
+Predictions: [[ 0.07642503  0.42179263  0.5017823 ]]
+
+Class: 2
+
+File: dataset/validation/surprise/WIN_20161119_18_32_46_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.04440521,  0.94500178,  0.01059296]], dtype=float32))
+Predictions: [[ 0.04440521  0.94500178  0.01059296]]
+
+Class: 1
+
+File: dataset/validation/surprise/77.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.43410623,  0.46410415,  0.10178968]], dtype=float32))
+Predictions: [[ 0.43410623  0.46410415  0.10178968]]
+
+Class: 1
+
+File: dataset/validation/surprise/9.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.09974781,  0.24675839,  0.65349382]], dtype=float32))
+Predictions: [[ 0.09974781  0.24675839  0.65349382]]
+
+Class: 2
+
+File: dataset/validation/surprise/70.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.12588415,  0.72245383,  0.15166204]], dtype=float32))
+Predictions: [[ 0.12588415  0.72245383  0.15166204]]
+
+Class: 1
+
+File: dataset/validation/surprise/WIN_20161119_18_32_18_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.06065411,  0.9055782 ,  0.03376774]], dtype=float32))
+Predictions: [[ 0.06065411  0.9055782   0.03376774]]
+
+Class: 1
+
+File: dataset/validation/surprise/78.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.10489129,  0.75571609,  0.13939266]], dtype=float32))
+Predictions: [[ 0.10489129  0.75571609  0.13939266]]
+
+Class: 1
+
+File: dataset/validation/surprise/WIN_20161120_04_51_50_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.09229266,  0.88915581,  0.01855159]], dtype=float32))
+Predictions: [[ 0.09229266  0.88915581  0.01855159]]
+
+Class: 1
+
+File: dataset/validation/surprise/WIN_20161121_13_05_54_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.23286346,  0.7435838 ,  0.02355273]], dtype=float32))
+Predictions: [[ 0.23286346  0.7435838   0.02355273]]
+
+Class: 1
+
+File: dataset/validation/surprise/74.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.41930932,  0.41544676,  0.16524403]], dtype=float32))
+Predictions: [[ 0.41930932  0.41544676  0.16524403]]
+
+Class: 0
+
+File: dataset/validation/surprise/71.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.04171671,  0.65413052,  0.3041527 ]], dtype=float32))
+Predictions: [[ 0.04171671  0.65413052  0.3041527 ]]
+
+Class: 1
+
+File: dataset/validation/surprise/80.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.29011422,  0.54256147,  0.16732433]], dtype=float32))
+Predictions: [[ 0.29011422  0.54256147  0.16732433]]
+
+Class: 1
+
+File: dataset/validation/surprise/76.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.00288513,  0.00713589,  0.98997903]], dtype=float32))
+Predictions: [[ 0.00288513  0.00713589  0.98997903]]
+
+Class: 2
+
+File: dataset/validation/surprise/8.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.00526263,  0.0062204 ,  0.98851693]], dtype=float32))
+Predictions: [[ 0.00526263  0.0062204   0.98851693]]
+
+Class: 2
+
+File: dataset/validation/surprise/WIN_20161121_13_05_39_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.65045005,  0.34190431,  0.00764566]], dtype=float32))
+Predictions: [[ 0.65045005  0.34190431  0.00764566]]
+
+Class: 0
+
+File: dataset/validation/surprise/82.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.00513169,  0.06570783,  0.92916054]], dtype=float32))
+Predictions: [[ 0.00513169  0.06570783  0.92916054]]
+
+Class: 2
+
+File: dataset/validation/surprise/WIN_20161119_18_32_40_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.18055043,  0.79791003,  0.02153949]], dtype=float32))
+Predictions: [[ 0.18055043  0.79791003  0.02153949]]
+
+Class: 1
+
+File: dataset/validation/surprise/79.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.04128613,  0.07419965,  0.88451421]], dtype=float32))
+Predictions: [[ 0.04128613  0.07419965  0.88451421]]
+
+Class: 2
+
+File: dataset/validation/surprise/WIN_20161120_04_51_42_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.09211549,  0.88685423,  0.02103031]], dtype=float32))
+Predictions: [[ 0.09211549  0.88685423  0.02103031]]
+
+Class: 1
+
+File: dataset/validation/surprise/81.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.17734416,  0.69828838,  0.12436753]], dtype=float32))
+Predictions: [[ 0.17734416  0.69828838  0.12436753]]
+
+Class: 1
+
+File: dataset/validation/surprise/WIN_20161119_14_31_18_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.1795392 ,  0.7859056 ,  0.03455517]], dtype=float32))
+Predictions: [[ 0.1795392   0.7859056   0.03455517]]
+
+Class: 1
+
+File: dataset/validation/surprise/WIN_20161119_14_31_19_Pro (2).jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.07775595,  0.89617532,  0.0260687 ]], dtype=float32))
+Predictions: [[ 0.07775595  0.89617532  0.0260687 ]]
+
+Class: 1
+
+File: dataset/validation/surprise/72.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.20979162,  0.66101778,  0.12919061]], dtype=float32))
+Predictions: [[ 0.20979162  0.66101778  0.12919061]]
+
+Class: 1
+
+File: dataset/validation/surprise/WIN_20161120_04_51_48_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.12824519,  0.85947901,  0.01227574]], dtype=float32))
+Predictions: [[ 0.12824519  0.85947901  0.01227574]]
+
+Class: 1
+
+Directory: dataset/validation/happy
+File: dataset/validation/happy/WIN_20161120_04_33_53_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.3239927 ,  0.65613806,  0.0198693 ]], dtype=float32))
+Predictions: [[ 0.3239927   0.65613806  0.0198693 ]]
+
+Class: 1
+
+File: dataset/validation/happy/WIN_20161119_12_42_03_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.12433538,  0.86046141,  0.01520327]], dtype=float32))
+Predictions: [[ 0.12433538  0.86046141  0.01520327]]
+
+Class: 1
+
+File: dataset/validation/happy/59.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.55964166,  0.34514564,  0.09521272]], dtype=float32))
+Predictions: [[ 0.55964166  0.34514564  0.09521272]]
+
+Class: 0
+
+File: dataset/validation/happy/WIN_20161120_04_34_56_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.13454199,  0.83292139,  0.03253659]], dtype=float32))
+Predictions: [[ 0.13454199  0.83292139  0.03253659]]
+
+Class: 1
+
+File: dataset/validation/happy/WIN_20161120_04_34_58_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.10751132,  0.85246998,  0.04001863]], dtype=float32))
+Predictions: [[ 0.10751132  0.85246998  0.04001863]]
+
+Class: 1
+
+File: dataset/validation/happy/55.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.13307138,  0.77257127,  0.09435737]], dtype=float32))
+Predictions: [[ 0.13307138  0.77257127  0.09435737]]
+
+Class: 1
+
+File: dataset/validation/happy/61.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.95692778,  0.0254494 ,  0.0176228 ]], dtype=float32))
+Predictions: [[ 0.95692778  0.0254494   0.0176228 ]]
+
+Class: 0
+
+File: dataset/validation/happy/63.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.88442779,  0.06826352,  0.04730866]], dtype=float32))
+Predictions: [[ 0.88442779  0.06826352  0.04730866]]
+
+Class: 0
+
+File: dataset/validation/happy/62.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.86374336,  0.10164355,  0.03461308]], dtype=float32))
+Predictions: [[ 0.86374336  0.10164355  0.03461308]]
+
+Class: 0
+
+File: dataset/validation/happy/WIN_20161121_13_12_47_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.49976766,  0.4384864 ,  0.06174602]], dtype=float32))
+Predictions: [[ 0.49976766  0.4384864   0.06174602]]
+
+Class: 0
+
+File: dataset/validation/happy/WIN_20161121_13_12_32_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.7694661 ,  0.20008677,  0.03044713]], dtype=float32))
+Predictions: [[ 0.7694661   0.20008677  0.03044713]]
+
+Class: 0
+
+File: dataset/validation/happy/WIN_20161121_13_12_33_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.39642832,  0.54487193,  0.05869981]], dtype=float32))
+Predictions: [[ 0.39642832  0.54487193  0.05869981]]
+
+Class: 1
+
+File: dataset/validation/happy/52.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.65301609,  0.30423364,  0.04275027]], dtype=float32))
+Predictions: [[ 0.65301609  0.30423364  0.04275027]]
+
+Class: 0
+
+File: dataset/validation/happy/54.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.71428668,  0.16479625,  0.12091704]], dtype=float32))
+Predictions: [[ 0.71428668  0.16479625  0.12091704]]
+
+Class: 0
+
+File: dataset/validation/happy/68.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.90046531,  0.06382914,  0.03570559]], dtype=float32))
+Predictions: [[ 0.90046531  0.06382914  0.03570559]]
+
+Class: 0
+
+File: dataset/validation/happy/WIN_20161119_12_42_09_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.21894576,  0.75708789,  0.02396642]], dtype=float32))
+Predictions: [[ 0.21894576  0.75708789  0.02396642]]
+
+Class: 1
+
+File: dataset/validation/happy/WIN_20161119_18_24_10_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.11992306,  0.86183465,  0.01824232]], dtype=float32))
+Predictions: [[ 0.11992306  0.86183465  0.01824232]]
+
+Class: 1
+
+File: dataset/validation/happy/56.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.66915923,  0.32052952,  0.01031132]], dtype=float32))
+Predictions: [[ 0.66915923  0.32052952  0.01031132]]
+
+Class: 0
+
+File: dataset/validation/happy/WIN_20161119_18_24_35_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.12491541,  0.86399537,  0.01108923]], dtype=float32))
+Predictions: [[ 0.12491541  0.86399537  0.01108923]]
+
+Class: 1
+
+File: dataset/validation/happy/WIN_20161119_18_24_20_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.29880232,  0.69295716,  0.00824051]], dtype=float32))
+Predictions: [[ 0.29880232  0.69295716  0.00824051]]
+
+Class: 1
+
+File: dataset/validation/happy/WIN_20161121_13_12_34_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.56112343,  0.39388245,  0.04499411]], dtype=float32))
+Predictions: [[ 0.56112343  0.39388245  0.04499411]]
+
+Class: 0
+
+File: dataset/validation/happy/66.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.26713282,  0.69242156,  0.04044558]], dtype=float32))
+Predictions: [[ 0.26713282  0.69242156  0.04044558]]
+
+Class: 1
+
+File: dataset/validation/happy/60.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.27775776,  0.59432304,  0.12791917]], dtype=float32))
+Predictions: [[ 0.27775776  0.59432304  0.12791917]]
+
+Class: 1
+
+File: dataset/validation/happy/67.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.93497765,  0.05065895,  0.01436351]], dtype=float32))
+Predictions: [[ 0.93497765  0.05065895  0.01436351]]
+
+Class: 0
+
+File: dataset/validation/happy/64.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.28787065,  0.703448  ,  0.00868136]], dtype=float32))
+Predictions: [[ 0.28787065  0.703448    0.00868136]]
+
+Class: 1
+
+File: dataset/validation/happy/53.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.29704145,  0.29799283,  0.4049657 ]], dtype=float32))
+Predictions: [[ 0.29704145  0.29799283  0.4049657 ]]
+
+Class: 2
+
+File: dataset/validation/happy/WIN_20161119_18_24_23_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.05149394,  0.94451469,  0.00399142]], dtype=float32))
+Predictions: [[ 0.05149394  0.94451469  0.00399142]]
+
+Class: 1
+
+File: dataset/validation/happy/57.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.25009516,  0.49688298,  0.2530219 ]], dtype=float32))
+Predictions: [[ 0.25009516  0.49688298  0.2530219 ]]
+
+Class: 1
+
+File: dataset/validation/happy/WIN_20161121_13_12_31_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.83215576,  0.15704453,  0.01079966]], dtype=float32))
+Predictions: [[ 0.83215576  0.15704453  0.01079966]]
+
+Class: 0
+
+File: dataset/validation/happy/WIN_20161120_04_33_52_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.24720654,  0.73032504,  0.02246842]], dtype=float32))
+Predictions: [[ 0.24720654  0.73032504  0.02246842]]
+
+Class: 1
+
+File: dataset/validation/happy/WIN_20161119_12_41_48_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.22225919,  0.7517693 ,  0.02597149]], dtype=float32))
+Predictions: [[ 0.22225919  0.7517693   0.02597149]]
+
+Class: 1
+
+File: dataset/validation/happy/WIN_20161119_12_41_54_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.24984129,  0.66924906,  0.08090966]], dtype=float32))
+Predictions: [[ 0.24984129  0.66924906  0.08090966]]
+
+Class: 1
+
+File: dataset/validation/happy/WIN_20161119_18_24_39_Pro.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.12306337,  0.86759675,  0.00933983]], dtype=float32))
+Predictions: [[ 0.12306337  0.86759675  0.00933983]]
+
+Class: 1
+
+File: dataset/validation/happy/58.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.1279282 ,  0.83626211,  0.03580971]], dtype=float32))
+Predictions: [[ 0.1279282   0.83626211  0.03580971]]
+
+Class: 1
+
+File: dataset/validation/happy/65.jpg
+
+1/1 [==============================] - 0s
+('Predicted:', array([[ 0.76884586,  0.06531642,  0.16583769]], dtype=float32))
+Predictions: [[ 0.76884586  0.06531642  0.16583769]]
+
+Class: 0
+
+[0 0 1 0 1 0 0 1 1 0 1 2 2 0 2 1 0 1 1 0 2 1 2 0 2 1 2 0 0 0 2 0 1 1 2 1 2 0 0 2 1 0 1 1 2 2 0 2 1 0 2 0 1 1 2 2 0 2 2 1 0 2 0 1 2 1 1 2 2 1 0 0 1 0 0 1 1 0 2 1 2 0 2 0 1 0 0 2 1 1 2 2 1 2 1 0 2 0 0 1]
+
+[0 0 1 0 1 0 0 1 1 0 1 2 2 0 2 1 0 1 1 0 2 1 2 0 2 1 2 0 0 0 2 0 1 1 2 1 2 0 0 2 1 0 1 1 2 2 0 2 1 0 2 0 1 1 2 2 0 2 2 1 0 2 0 1 2 1 1 2 2 1 0 0 1 0 1 1 1 1 2 1 2 0 0 0 1 0 0 1 1 1 2 2 1 2 1 1 2 0 0 1]
+

@@ -20,61 +20,15 @@ test_dir = 'dataset/validation'
 
 def generate_html_test(model):
 
-	output=""" <!DOCTYPE html>
-		<html>
-			<head>
-			<style>
-			table, th, td {
-				border: 1px solid black;
-				border-collapse: collapse;
-			}
-			th, td {
-				padding: 5px;
-				text-align: left;
-			}
-			</style>
-			</head>
-			<body>
-
-				<h2>Table of predictions on the test set:</h2>
-				<table style="width:100%">
-				  <tr>
-					<th>Figure</th>
-					<th>Class</th>
-					<th>Classification Scores</th>
-					<th>Class Predicted</th>
-				  </tr>"""
-
-
 	for d in os.listdir(test_dir):
-
 			subdir=test_dir + "/" + d
 			print "Directory:", subdir
-			x=0
 			for f in os.listdir(subdir):				
-
-				output+='<tr><td><img src="%s" border="0"></td> \n' % (subdir + "/" + f)
-				output+='<td>%s</td>\n' % d
-				print "File:", subdir + "/" + f
-			
+				print "File:", subdir + "/" + f + '\n'
 				p=predict(model, subdir + "/" + f)
-				output+='<td>%s</td>\n' % p
-				output+='<td>%s</td><tr>\n' % np.argmax(p)
+				print 'Predictions: %s\n' % p
+				print 'Class: %s\n' % np.argmax(p)
 
-
-				x+=1
-				if x>100:
-					break
-
-	output+=""" </table>
-				</body>
-				</html>
-				"""
-	file = open('test_results.html', 'w')
-	file.write(output)
-	file.close()
-
-	return
 
 def train():
 	
@@ -112,7 +66,7 @@ def train():
 		    nb_epoch=15,
 		    validation_data=test_generator,
 		    verbose=2,
-		    nb_val_samples=11)
+		    nb_val_samples=100)
 
 	print "Saving the weights"
 	model.save_weights('face_pretrain.h5')  # always save your weights after training or during training
@@ -137,7 +91,7 @@ def generate_model():
 
 	model = Model(input=base_model.input, output=predictions)
 
-	model.compile(loss='categorical_crossentropy', optimizer='sgd', metrics=['accuracy'])
+	model.compile(loss='categorical_crossentropy', optimizer='sgd', metrics=['categorical_accuracy'])
 
 
 	# Show some debug output
@@ -159,7 +113,8 @@ def predict(model, img_path):
 	x = image.img_to_array(img)
 	x = np.expand_dims(x, axis=0)
 	x = inception.preprocess_input(x)
-	preds = model.predict(x)
+        #preds=model.predict_classes(x, verbose=1)
+	preds = model.predict(x, batch_size=1, verbose=1)
 	print('Predicted:', preds)
 
 	return preds
@@ -170,11 +125,31 @@ def predict_class(model, img_path):
 	
 	return np.argmax(pred)
 
+def test_gen():
+        print "Test image data"
+        test_datagen = ImageDataGenerator(rescale=1./255)
+        print "Teste generator"
+        test_generator = test_datagen.flow_from_directory(
+                    test_dir,  # this is the target directory
+                    target_size=IMSIZE,  # all images will be resized to 299x299 Inception V3 input
+                    batch_size=100,
+                    class_mode='categorical')
+        return test_generator
+
+def test(m):
+        g=test_gen().next()
+        print g[1]
+        print np.argmax(g[1], axis=1)
+#        o=inception.preprocess_input(g[0])
+        o=m.predict_on_batch(g[0])
+        print o
+        print np.argmax(o, axis=1)
+ 
 def main():	
 	m=generate_model()	
-	m=train()	
-	#m=load_weights(m)
-	#generate_html_test(m)
+#	m=train()	
+	m=load_weights(m)
+	generate_html_test(m)
 
 	return
 
