@@ -42,17 +42,26 @@ def train():
 
 	# Data generators for feeding training/testing images to the model.
 	print "Train ImageData"
-	train_datagen = ImageDataGenerator(rescale=1./255)
+#	train_datagen = ImageDataGenerator(rescale=1./255)
 	print "Train generator"
+        train_datagen=ImageDataGenerator(rescale=1./255,
+                                         rotation_range=20,
+                                         width_shift_range=0.2,
+                                         height_shift_range=0.2)
 
 	train_generator = train_datagen.flow_from_directory(
 		    train_dir,  # this is the target directory
 		    target_size=IMSIZE,  # all images will be resized to 299x299 Inception V3 input
 		    batch_size=20,
+                    save_to_dir='augmented',
 		    class_mode='categorical')
 
 	print "Test image data"
-	test_datagen = ImageDataGenerator(rescale=1./255)
+#	test_datagen = ImageDataGenerator(rescale=1./255)
+        test_datagen=ImageDataGenerator(rescale=1./255,
+                                         rotation_range=20,
+                                         width_shift_range=0.2,
+                                         height_shift_range=0.2)
 
 	print "Teste generator"
 
@@ -60,6 +69,7 @@ def train():
                     train_dir,  # this is the target directory
                     target_size=IMSIZE,  # all images will be resized to 299x299 Inception V3 input
                     batch_size=10,
+                    save_to_dir='augmented_test',
                     class_mode='categorical')
 
 	print "Model fit"
