@@ -72,7 +72,7 @@ def train():
 		    nb_val_samples=100)
 
 	print "Saving the weights"
-	model.save_weights('face_pretrain.h5')  # always save your weights after training or during training
+	model.save_weights('face_pretrain_end.h5')  # always save your weights after training or during training
 	print "Weights succesfuly saved!"
         model.save('model.ker')
 	generate_html_test(model)
@@ -95,7 +95,7 @@ def generate_model():
 
 	model = Model(input=base_model.input, output=predictions)
 
-	model.compile(loss='categorical_crossentropy', optimizer='sgd', metrics=['categorical_accuracy'])
+	model.compile(loss='categorical_crossentropy', optimizer='adadelta', metrics=['categorical_accuracy'])
 
 
 	# Show some debug output
@@ -105,7 +105,7 @@ def generate_model():
 
 def load_weights(model):
 #	model = keras.models.load_model('model.ker')
-	model.load_weights('face_pretrain.h5')
+	model.load_weights('face_pretrain_end.h5')
 
 	return model
 
@@ -132,6 +132,11 @@ def predict_class(model, img_path):
 def test_gen():
         print "Test image data"
         test_datagen = ImageDataGenerator(rescale=1./255)
+#        test_datagen=ImageDataGenerator(rescale=1./255,
+#                                        rotation_range=20,
+#                                        width_shift_range=0.2,
+#                                        height_shift_range=0.2)
+
         print "Teste generator"
         test_generator = test_datagen.flow_from_directory(
                     test_dir,  # this is the target directory
@@ -150,10 +155,11 @@ def test(m):
         print np.argmax(o, axis=1)
  
 def main():	
-#	m=generate_model()	
-	m=train()	
-#	m=load_weights(m)
+	m=generate_model()	
+#	m=train()	
+	m=load_weights(m)
 #	generate_html_test(m)
+        test(m)
 
 	return
 
