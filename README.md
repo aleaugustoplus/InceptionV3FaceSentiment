@@ -12,7 +12,7 @@ Python and tensorflow
 Automated tests have not been used 
 
 ## Built With
-* [python] (https://python.org)
+* [python](https://python.org)
 * [Tensorflow](https://https://www.tensorflow.org)
 
 ## Contributing
