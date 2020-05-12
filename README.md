@@ -1,5 +1,5 @@
 # InceptionV3FaceSentiment
-Inception V3 face sentiment recognition uses google pre-trained inception v3 neural network in order recognize sentiment in human's faces
+This is a modified version of inception V3 deep neural network trained in the task of face sentiment recognition uses google pre-trained inception v3 neural network in order recognize sentiment in human's faces
 ![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/1200px-TensorFlowLogo.svg.png)
 
 
